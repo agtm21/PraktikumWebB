@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>
+            Form
+        </title>
+        <style>
+            form{
+                width: 50%;
+            }
+            input[type="text"]{
+                width: 95%;
+                height: 30px;
+            }
+            textarea{
+                width: 95%;
+                height: 90px;
+            }
+            input[type="submit"]{
+                border-radius: 6px;
+                width: 100px;
+                height: 30px;
+                background-color:#20fb00;
+                color: white;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <!-- Gede Agus Surya Atmaja 1708561025 Praktikum Web B -->
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Form</legend>
+                    <p>
+                    <label>Username</label>
+                    <input type="text" name="uname" placeholder="Username">
+                    </p>
+                    <p>
+                    <label>Password</label>
+                    <input type="text" name="pwd" placeholder="Password">
+                    </p>
+                    <p>
+                    <label>Gender</label>
+                    <span style="padding: 48px;"></span>
+                    <input type="radio" name="jk" value="laki">
+                    <label>Laki- Laki</label>
+                    <input type="radio" name="jk" value="perempuan">
+                    <label>Perempuan</label>
+                    </p>
+                    <p>
+                    <label>Hobby</label>
+                    <span style="padding:50px;"></span>
+                    <input type="checkbox" name="Basket">
+                    <label>Basket</label>
+                    <input type="checkbox" name="Sepakbola">
+                    <label>Sepak Bola</label>
+                    <input type="checkbox" name="Voli">
+                    <label>Voli</label>
+                    </p>
+                    <p>
+                    <label>Kewarganegaraan</label>
+                    <span style="padding: 17px;"></span>
+                    <select name="kwn" style="width: 100px;">
+                        <option></option>
+                        <option>WNI</option>
+                        <option>WNA</option>
+                    </select>
+                    </p>
+                    <p>
+                    <label>Alamat</label>
+                    <textarea name="alamat" placeholder="Silahkan isi Alamat lengkap"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" name="send" value="Submit">
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+        
+    </body>
+</html>
