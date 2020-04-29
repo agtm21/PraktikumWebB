@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+    background-color: #2c5b5d;
+    padding-left: 30px;
+    height: 120px;
+}
+.nav h1{    
+    color: white;
+}
+.main{
+   padding-left: 30px;
+}
+.main button{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    background-color: #2c5b5d;
+    border-radius: 3px;
+}
+.main input[type='text']{
+    width: 20%;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+
